@@ -13,7 +13,7 @@ const LIBRARY_PARCELS = parcelsByType[ParcelType.Library];
 export function App() {
   return (
     <div className={styles.app}>
-      <Header>Hiya!</Header>
+      <Header>Hiya! I'm Ceci!</Header>
       {APP_PARCELS.length > 0 && (
         <>
           <Typography>Apps</Typography>
