@@ -1,0 +1,32 @@
+$width: 32rem;
+
+.card {
+  background: #24292e;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: $width;
+  max-width: 750px;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 5px 0px rgba(36, 41, 46, 0.75);
+
+  transition: 0.15s ease-in-out;
+  transition-property: box-shadow;
+
+  &:hover {
+    box-shadow: 4px 4px 15px 0px rgba(36, 41, 46, 0.75);
+  }
+
+  > * {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    &:first-child {
+      padding-top: 1rem;
+    }
+
+    &:last-child {
+      padding-bottom: 1rem;
+    }
+  }
+}

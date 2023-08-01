@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  position: relative;
+
+  &:after {
+    content: '';
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    right: 100%;
+    pointer-events: none;
+  }
+
+  .tooltip {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 1.5rem;
+    color: #24292e;
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 4px 4px 5px #24292ebf;
+    line-height: 1;
+    margin-right: 10px;
+    height: 100%;
+    white-space: nowrap;
+    border-radius: 1rem;
+    opacity: 0;
+    transform: translateX(10px);
+    pointer-events: none;
+
+    position: absolute;
+    right: 100%;
+
+    transition: 0.15s ease-in-out;
+    transition-property: opacity, transform;
+  }
+
+  &.success > .tooltip {
+    background-color: #27ae60;
+  }
+
+  &.warning > .tooltip {
+    background-color: #f1c40f;
+  }
+
+  &.disabled > .tooltip {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  &:hover {
+    &:after {
+      pointer-events: all;
+    }
+
+    .tooltip {
+      pointer-events: all;
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
