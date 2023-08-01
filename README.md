@@ -1,5 +1,5 @@
-[![Build Status](https://img.shields.io/github/actions/workflow/status/cecilia-sanare/photo-album/main.yml?branch=main)](https://github.com/cecilia-sanare/photo-album/actions/workflows/main.yml?query=branch%3Amain)
-[![Coveralls](https://img.shields.io/coveralls/github/cecilia-sanare/photo-album)](https://coveralls.io/github/cecilia-sanare/photo-album)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/cecilia-sanare/cecilias.me/ci.yml?branch=main)](https://github.com/cecilia-sanare/cecilias.me/actions/workflows/ci.yml?query=branch%3Amain)
+[![Coveralls](https://img.shields.io/coveralls/github/cecilia-sanare/cecilias.me)](https://coveralls.io/github/cecilia-sanare/cecilias.me)
 
 ## cecilias.me
 
