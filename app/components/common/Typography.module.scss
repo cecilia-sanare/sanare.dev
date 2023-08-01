@@ -1,0 +1,26 @@
+.typography {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 1;
+
+  &.h1 {
+    font-size: 4rem;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+  }
+
+  &.h2 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: lighter;
+  }
+
+  &.h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    font-size: 2rem;
+    margin: 0;
+  }
+}

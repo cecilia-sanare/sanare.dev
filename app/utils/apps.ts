@@ -1,7 +1,7 @@
 import { App } from '../types/app';
-import { AppStatus } from '../types/status';
+import { Status } from '../types/status';
 import { groupBy } from './group';
 
-export function groupAppsByStatus(apps: App[]): Record<AppStatus, App[]> {
+export function groupAppsByStatus(apps: App[]): Record<Status, App[]> {
   return groupBy(apps, 'status');
 }
