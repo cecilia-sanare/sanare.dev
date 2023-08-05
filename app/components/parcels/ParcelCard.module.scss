@@ -1,4 +1,11 @@
 .card {
+  .name {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    flex-direction: column;
+  }
+
   &.library {
     @media only screen and (min-width: 600px) {
       min-width: 20rem;
