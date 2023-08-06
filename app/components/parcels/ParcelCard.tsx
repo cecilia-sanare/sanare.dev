@@ -17,10 +17,12 @@ export function ParcelCard({ parcel }: ParcelCardProps) {
   return (
     <Card className={classNames(styles.card, styles[parcel.type])}>
       <CardHeader>
-        {parcel.name}
+        <div className={styles.name}>
+          {parcel.name}
+          <ParcelBadges parcel={parcel} />
+        </div>
         <CardStatus status={parcel.status} />
       </CardHeader>
-      {isPackage(parcel) && <ParcelBadges parcel={parcel} />}
       {isImageParcel(parcel) && <CardImage src={parcel.imageUrl} />}
       <div className={styles.description}>{parcel.description}</div>
       <CardActions>
