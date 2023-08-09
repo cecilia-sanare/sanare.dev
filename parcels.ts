@@ -50,6 +50,14 @@ const _parcels: Parcel[] = [
   },
   {
     type: ParcelType.Library,
+    name: '@rain-cafe/logger',
+    description: 'A simple logger for all Rainbow Cafe Apps & Libraries',
+    repo: 'github:rain-cafe/logger',
+    parcel: 'npm:@rain-cafe/logger',
+    status: Status.COMPLETED,
+  },
+  {
+    type: ParcelType.Library,
     name: 'ng-currency',
     description: 'Currency with AngularJS made easy!',
     repo: 'github:salte-io/ng-currency',
