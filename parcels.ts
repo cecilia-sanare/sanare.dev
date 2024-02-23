@@ -41,6 +41,14 @@ const _parcels: Parcel[] = [
   },
   {
     type: ParcelType.Library,
+    name: '@rain-cafe/react-utils',
+    description: 'Collection of react utilities curated by the Rainbow Cafe~ ❤️',
+    repo: 'github:rain-cafe/react-utils',
+    parcel: 'npm:@rain-cafe/react-utils',
+    status: Status.COMPLETED,
+  },
+  {
+    type: ParcelType.Library,
     name: 'ng-currency',
     description: 'Currency with AngularJS made easy!',
     repo: 'github:salte-io/ng-currency',
