@@ -15,6 +15,15 @@ const _parcels: Parcel[] = [
   },
   {
     type: ParcelType.App,
+    name: 'Utils',
+    imageUrl: 'https://raw.githubusercontent.com/rain-cafe/logos/main/utils/social-media.png',
+    description: 'Local only implementation of your favorite tools.',
+    url: 'https://utils.rains.cafe',
+    repo: 'github:rain-cafe/utils',
+    status: Status.IN_DEVELOPMENT,
+  },
+  {
+    type: ParcelType.App,
     name: 'utils.gg',
     imageUrl: 'https://github.com/salte-io/utils/raw/master/images/banner.png',
     description: 'Local only implementation of your favorite tools.',
