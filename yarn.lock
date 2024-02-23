@@ -2398,6 +2398,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@uiw/react-shields@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@uiw/react-shields@npm:1.2.0"
+  peerDependencies:
+    "@babel/runtime": ">=7.0.0"
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: d760a974d82d667e8e82b234f1b403853125898421f9600032b1b205551f6171fc364f653ab6953fcafc3b111cf25f6b3b4dc1be6ec8cecaefd2c35685c1baac
+  languageName: node
+  linkType: hard
+
 "abab@npm:^2.0.6":
   version: 2.0.6
   resolution: "abab@npm:2.0.6"
@@ -2959,6 +2970,7 @@ __metadata:
     "@types/react": ^18.2.17
     "@typescript-eslint/eslint-plugin": ^6.2.1
     "@typescript-eslint/parser": ^6.2.1
+    "@uiw/react-shields": ^1.2.0
     classnames: ^2.3.2
     eslint: ^8.46.0
     eslint-config-prettier: ^8.9.0
