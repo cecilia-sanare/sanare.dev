@@ -1,5 +1,7 @@
 [![Build Status](https://img.shields.io/github/actions/workflow/status/cecilia-sanare/sanare.dev/ci.yml?branch=main)](https://github.com/cecilia-sanare/sanare.dev/actions/workflows/ci.yml?query=branch%3Amain)
-[![Coveralls](https://img.shields.io/coveralls/github/cecilia-sanare/sanare.dev)](https://coveralls.io/github/cecilia-sanare/sanare.dev)
+
+<!-- TODO: Enable coverage once bun supports it natively -->
+<!-- [![Coveralls](https://img.shields.io/coveralls/github/cecilia-sanare/sanare.dev)](https://coveralls.io/github/cecilia-sanare/sanare.dev) -->
 
 ## sanare.dev
 
