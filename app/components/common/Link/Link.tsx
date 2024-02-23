@@ -10,7 +10,7 @@ export type LinkProps = {
 
 export function Link({ className, src, icon: Icon }: LinkProps) {
   return (
-    <a className={classnames(styles.link, className)} href={src}>
+    <a className={classnames(styles.link, className)} href={src} target="_blank">
       <Icon className={styles.icon} size={30} />
     </a>
   );
