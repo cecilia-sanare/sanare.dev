@@ -1,7 +1,7 @@
-[![Build Status](https://img.shields.io/github/actions/workflow/status/cecilia-sanare/cecilias.me/ci.yml?branch=main)](https://github.com/cecilia-sanare/cecilias.me/actions/workflows/ci.yml?query=branch%3Amain)
-[![Coveralls](https://img.shields.io/coveralls/github/cecilia-sanare/cecilias.me)](https://coveralls.io/github/cecilia-sanare/cecilias.me)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/cecilia-sanare/sanare.dev/ci.yml?branch=main)](https://github.com/cecilia-sanare/sanare.dev/actions/workflows/ci.yml?query=branch%3Amain)
+[![Coveralls](https://img.shields.io/coveralls/github/cecilia-sanare/sanare.dev)](https://coveralls.io/github/cecilia-sanare/sanare.dev)
 
-## cecilias.me
+## sanare.dev
 
 A simple app for showcasing all the apps I've developed! :tada:
 
