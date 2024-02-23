@@ -1,10 +1,10 @@
 import { ReactNode } from 'react';
-import styles from './CardHeader.module.scss';
+import { Typography, TypographyTypes } from '../Typography';
 
 export type CardHeaderProps = {
   children: ReactNode;
 };
 
 export function CardHeader({ children }: CardHeaderProps) {
-  return <div className={styles.header}>{children}</div>;
+  return <Typography type={TypographyTypes.H3}>{children}</Typography>;
 }

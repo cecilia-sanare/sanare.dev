@@ -1,0 +1,18 @@
+.card {
+  &.library {
+    min-width: 20rem;
+
+    .description {
+      flex: 1;
+      max-width: 320px;
+      box-sizing: border-box;
+    }
+  }
+
+  &.app,
+  &.framework {
+    flex: 1;
+    min-width: 32rem;
+    max-width: 750px;
+  }
+}

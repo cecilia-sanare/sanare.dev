@@ -1,4 +1,4 @@
-import { AppStatus } from '../../../types/status';
+import { Status } from '../../../types/status';
 import { IconType } from 'react-icons';
 import { FaCheckCircle } from 'react-icons/fa';
 import { FaCode } from 'react-icons/fa6';
@@ -9,25 +9,25 @@ import { Themes } from '../../../types/themes';
 import { ThemeIcon } from '../ThemeIcon';
 
 export type CardStatusProps = {
-  status: AppStatus;
+  status: Status;
 };
 
-const STATUS_ICON: Record<AppStatus, IconType> = {
-  [AppStatus.SUNSET]: PiSunHorizonBold,
-  [AppStatus.COMPLETED]: FaCheckCircle,
-  [AppStatus.IN_DEVELOPMENT]: FaCode,
+const STATUS_ICON: Record<Status, IconType> = {
+  [Status.SUNSET]: PiSunHorizonBold,
+  [Status.COMPLETED]: FaCheckCircle,
+  [Status.IN_DEVELOPMENT]: FaCode,
 };
 
-const STATUS_TITLE: Record<AppStatus, string> = {
-  [AppStatus.SUNSET]: 'Sunset',
-  [AppStatus.COMPLETED]: 'Completed',
-  [AppStatus.IN_DEVELOPMENT]: 'In Development',
+const STATUS_TITLE: Record<Status, string> = {
+  [Status.SUNSET]: 'Sunset',
+  [Status.COMPLETED]: 'Completed',
+  [Status.IN_DEVELOPMENT]: 'In Development',
 };
 
-const STATUS_THEME: Record<AppStatus, Themes> = {
-  [AppStatus.SUNSET]: Themes.DISABLED,
-  [AppStatus.COMPLETED]: Themes.SUCCESS,
-  [AppStatus.IN_DEVELOPMENT]: Themes.WARNING,
+const STATUS_THEME: Record<Status, Themes> = {
+  [Status.SUNSET]: Themes.DISABLED,
+  [Status.COMPLETED]: Themes.SUCCESS,
+  [Status.IN_DEVELOPMENT]: Themes.WARNING,
 };
 
 export function CardStatus({ status }: CardStatusProps) {

@@ -1,4 +1,4 @@
-import { AppStatus } from './status';
+import { Status } from './status';
 
 export type App = {
   name: string;
@@ -6,5 +6,5 @@ export type App = {
   description?: string;
   url?: string;
   repo: string;
-  status: AppStatus;
+  status: Status;
 };
