@@ -21,7 +21,7 @@ export function ParcelCard({ parcel }: ParcelCardProps) {
         <CardStatus status={parcel.status} />
       </CardHeader>
       {isPackage(parcel) && <ParcelBadges parcel={parcel} />}
-      {isImageParcel(parcel) && <CardImage className={styles.image} src={parcel.imageUrl} />}
+      {isImageParcel(parcel) && <CardImage src={parcel.imageUrl} />}
       <div className={styles.description}>{parcel.description}</div>
       <CardActions>
         {parcel.url && <Link icon={BsLink45Deg} src={parcel.url} />}

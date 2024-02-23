@@ -9,12 +9,14 @@ export type CardImageProps = {
 
 export function CardImage({ aspectRatio, className, src }: CardImageProps) {
   return (
-    <div
-      className={classNames(styles.image, className)}
-      style={{
-        aspectRatio: aspectRatio ?? '2/1',
-        backgroundImage: `url(${src})`,
-      }}
-    />
+    <div className={classNames(styles.container, className)}>
+      <div
+        className={styles.image}
+        style={{
+          aspectRatio: aspectRatio ?? '2/1',
+          backgroundImage: `url(${src})`,
+        }}
+      />
+    </div>
   );
 }
