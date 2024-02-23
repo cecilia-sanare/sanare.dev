@@ -6,6 +6,17 @@
 }
 
 .apps {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  flex-wrap: wrap;
+
+  @media only screen and (max-width: 1200px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.libraries {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;

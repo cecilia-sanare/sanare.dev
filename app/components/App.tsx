@@ -37,7 +37,7 @@ export function App() {
       {LIBRARY_PARCELS.length > 0 && (
         <>
           <Typography>Libraries</Typography>
-          <div className={styles.apps}>
+          <div className={styles.libraries}>
             {LIBRARY_PARCELS.map((parcel, index) => (
               <ParcelCard key={index} parcel={parcel} />
             ))}

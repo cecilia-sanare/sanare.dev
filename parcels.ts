@@ -23,14 +23,6 @@ const _parcels: Parcel[] = [
     status: Status.IN_DEVELOPMENT,
   },
   {
-    type: ParcelType.App,
-    name: 'utils.gg',
-    imageUrl: 'https://github.com/salte-io/utils/raw/master/images/banner.png',
-    description: 'Local only implementation of your favorite tools.',
-    repo: 'github:salte-io/utils',
-    status: Status.SUNSET,
-  },
-  {
     type: ParcelType.Framework,
     name: 'Flarie',
     imageUrl: 'https://repository-images.githubusercontent.com/659549026/891e12dd-c7f7-41d4-a689-c68ba76d1dee',
