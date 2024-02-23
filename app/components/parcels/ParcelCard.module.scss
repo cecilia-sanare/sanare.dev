@@ -1,6 +1,12 @@
 .card {
   &.library {
-    min-width: 20rem;
+    @media only screen and (min-width: 600px) {
+      min-width: 20rem;
+    }
+
+    @media only screen and (max-width: 600px) {
+      min-width: 100%;
+    }
 
     .description {
       flex: 1;
@@ -11,8 +17,15 @@
 
   &.app,
   &.framework {
+    @media only screen and (min-width: 601px) {
+      min-width: 32rem;
+    }
+
+    @media only screen and (max-width: 600px) {
+      min-width: 100%;
+    }
+
     flex: 1;
-    min-width: 32rem;
     max-width: 750px;
   }
 }
