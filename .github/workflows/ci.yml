@@ -54,10 +54,11 @@ jobs:
       - name: Coverage
         run: bun test --coverage
 
-      - name: Coveralls
-        uses: coverallsapp/github-action@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+      # TODO: Re-enable once https://github.com/oven-sh/bun/issues/4015 is resolved
+      # - name: Coveralls
+      #   uses: coverallsapp/github-action@master
+      #   with:
+      #     github-token: ${{ secrets.GITHUB_TOKEN }}
 
   build:
     name: Build
