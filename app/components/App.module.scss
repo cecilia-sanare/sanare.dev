@@ -1,0 +1,11 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.apps {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}

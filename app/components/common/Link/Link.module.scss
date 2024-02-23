@@ -1,0 +1,42 @@
+.link {
+  position: relative;
+  display: inline-flex;
+  color: #24292e;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+
+  transition: 0.15s ease-in-out;
+  transition-property: color;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    background-color: rgba(241, 156, 187, 0.8);
+
+    opacity: 0;
+    transform: scale(0.5);
+
+    transition: 0.15s ease-in-out;
+    transition-property: transform, opacity;
+  }
+
+  &:hover {
+    color: white;
+
+    &:before {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .icon {
+    z-index: 1;
+  }
+}

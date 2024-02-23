@@ -1,0 +1,11 @@
+.header {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 4rem;
+  font-family: 'Dancing Script', cursive;
+
+  .icon {
+    width: 4rem;
+  }
+}
