@@ -6,15 +6,6 @@ import { sortBy } from './app/utils/sort';
 const _parcels: Parcel[] = [
   {
     type: ParcelType.App,
-    name: 'Silvy',
-    imageUrl: 'https://silvy.ribbonstudios.com/silvy.png',
-    description: 'An app for creating, sharing, and collaborating on strats for XIV',
-    url: 'https://silvy.ribbonstudios.com',
-    repo: 'github:ribbon-studios/silvy',
-    status: Status.IN_DEVELOPMENT,
-  },
-  {
-    type: ParcelType.App,
     name: 'Utils',
     imageUrl: 'https://raw.githubusercontent.com/ribbon-studios/logos/main/utils/social-media.png',
     description: 'Local only implementation of your favorite tools.',
